@@ -1,0 +1,952 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
+/* 
+font-family: 'Commissioner', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Commissioner', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    height: 100%;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.menuHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 6.5rem;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    background-image: url(./images/image-hero-desktop.jpg);
+}
+
+#imgLogo {
+    cursor: pointer;
+}
+
+#getStarted {
+    cursor: pointer;
+    word-spacing: 0px;
+}
+
+#About {
+    cursor: pointer;
+}
+
+#Discover { 
+    cursor: pointer;
+}
+
+.optionsMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    font-size: 15px;
+    color: white;
+}
+
+.containerStandart1 {
+    position: relative;
+}
+
+.containerStandart {
+    position: relative;
+}
+
+.wrapperStandart1 {
+    position: absolute;
+    top: -95px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 750px;
+    height: 100%;
+    min-height: 260px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 12px;
+    z-index: 50;
+    margin-bottom: -55px;
+}
+
+.contentPart1 {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoMastercraft {
+    position: absolute;
+    top: -28px;
+}
+
+.titlePart1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subtitlePart1 {
+    color: hsl(0, 0%, 48%);
+    margin-bottom: 30px;
+}
+
+#backThisP {
+    padding: 18px 45px;
+    border-radius: 28px;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    cursor: pointer;
+}
+
+#Bookmark {
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 28px;
+    color: hsl(0, 0%, 48%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.partTop {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-inline-start: 2.5rem;
+    padding-inline-end: 6rem;
+    background-color: white;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+
+.wrapperStandart2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 750px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.partition1Stand2 {
+    height: 70px;
+    width: 1.5px;
+    background-color: hsl(0, 0%, 48%);
+    border-radius: 15px;
+    opacity: 0.3;
+    margin-left: 35px;
+    margin-right: 55px;
+}
+
+.partition2Stand2 {
+    height: 70px;
+    width: 1.5px;
+    background-color: hsl(0, 0%, 48%);
+    border-radius: 15px;
+    opacity: 0.3;
+    margin-left: 75px;
+    margin-right: 55px;
+    
+}
+
+.mainInfo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.infoStand2 {
+    font-size: 16px;
+    color: hsl(0, 0%, 48%);
+}
+
+.partBottom {
+    width: 100%;
+    max-width: 800px;
+    padding-inline: 2.5rem;
+    margin-bottom: 60px;
+}
+
+.lines {
+    position: relative;
+}
+
+.lineBlue {
+    position: absolute;
+    z-index: 50;
+    min-width: 500px;
+    height: 10px;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 15px;
+}
+
+.lineGray {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 10px;
+    background-color: hsl(0, 5%, 92%);
+    border-radius: 15px;
+}
+
+.wrapperStandart3 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-inline: 2.5rem;
+    width: 100%;
+    max-width: 750px;
+    /* height: 50px; */
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 100px;
+}
+
+.titlePart3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 3rem;
+    margin-bottom: 30px;
+}
+
+.text1Part3 {
+    color: hsl(0, 0%, 48%);
+    margin-bottom: 45px;
+    line-height: 26px;
+}
+
+.text2Part3 {
+    color: hsl(0, 0%, 48%);
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.containerDonateOp {
+    border: 1px solid hsl(0, 4%, 83%);
+    border-radius: 12px;
+    padding-inline: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#containerDonateOpOS {
+    opacity: 0.35;
+    margin-bottom: 45px;
+}
+
+.part1Donate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-bottom: 25px;
+}
+
+.nameStand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textDonate {
+    color: hsl(0, 0%, 48%);
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.part3Donate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.pledge {
+    color: hsl(176, 50%, 47%);
+    font-weight: 700;
+}
+
+.numberLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: hsl(0, 0%, 48%);
+}
+
+.numberP3 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buttonSR {
+    padding: 14px 35px;
+    border-radius: 28px;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    font-weight: 700;
+    font-family: 'Commissioner', sans-serif;
+    cursor: pointer;
+}
+
+#buttonOS {
+    background-color: hsl(0, 1%, 59%);
+    cursor: pointer;
+}
+
+.containerModal1 {
+    position: absolute;
+    top: -220px;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 750px;
+    height: 930px;
+    background: white;
+    z-index: 60;
+    border-radius: 12px;
+    padding-inline: 2.5rem;
+}
+
+
+.containerModal.active {
+    display: block;
+}
+
+.containerModal1.active {
+    display: block;
+}
+
+
+.containerDonateModal1 {
+    border: 1px solid hsl(0, 4%, 83%);
+    border-radius: 12px;
+    padding-inline: 1.25rem;
+    margin-bottom: 25px;
+}
+
+.containerDonateModal1:has(input[type=radio]:checked) {
+    border-color: hsl(176, 50%, 47%);
+    border-width: 2px;
+}
+
+#imgClose {
+    cursor: pointer;
+}
+
+input[type=radio] {
+    position: relative;
+    cursor: pointer;
+  }
+
+   input[type=radio]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: -5px;
+    right: -5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 4%, 83%);
+  }
+
+   input[type=radio]:checked:after { 
+    content: "";
+    display: block;
+    background-color: hsl(176, 50%, 47%);
+    width: 9px;
+    height: 9px;
+    border: solid hsl(176, 50%, 47%);
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+   }
+
+.checkbox1CDM {
+    position: relative;
+    border: 1px solid hsl(0, 4%, 83%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.checkbox2CDM {
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    border: 1px solid hsl(176, 50%, 47%);
+    width: 15px;
+    height: 15px;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 50%;
+}
+
+
+.imageCloseModal {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.backThisProject {
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.wantToSup {
+    color: hsl(0, 0%, 48%);
+    margin-bottom: 35px;
+}
+
+.topCDM {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.titleCDM {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.textCDM {
+    color: hsl(0, 0%, 48%);
+    margin-left: 55px;
+    margin-bottom: 35px;
+}
+
+.containerTitleCDM {
+    width: 100%;
+    max-width: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pledgeValue {
+    color: hsl(176, 50%, 47%);
+}
+
+#mahogany {
+    opacity: 0.45;
+}
+
+.shadowModal {
+    position: fixed;
+    top: 0;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 135%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 50;
+}
+
+.containerPledgeDonate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.oi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 230px;
+    width: 100%;
+}
+
+.divisoriaModal {
+    color: hsl(0, 0%, 48%);
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.divisoriaModalM { 
+    display: none;
+}
+
+.enterYourPledge {
+    color: hsl(0, 0%, 48%);
+}
+
+.valueDonateContinue {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.valueDonate {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(0, 0%, 48%);
+    border: 1px solid hsl(176, 50%, 47%);
+    border-radius: 24px;
+    padding: 10px 15px;
+}
+
+.inputDonate {
+    border: none;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}    
+
+input[type="number"] {
+    width: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#buttonContinueD {
+    border: none;
+    outline: none;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    padding: 15px 25px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.containerModalComplete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 550px;
+    height: 450px;
+    padding-inline: 3rem;
+    background-color: white;
+    margin: auto;
+    z-index: 110;
+    border-radius: 18px;
+    display: none;
+}
+
+.containerModalComplete.active {
+    display: block;
+}
+
+.wrapperModalComplete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imageCheck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    width: 100%;
+}
+
+#imgCheck {
+    width: 80px;
+}
+
+.titleModalComplete {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.textModalComplete {
+    text-align: center;
+    line-height: 25px;
+    color: hsl(0, 0%, 48%);
+    margin-bottom: 35px;
+}
+
+#buttonGotIt {
+    padding: 16px 38px;
+    border-radius: 25px;
+    color: white;
+    background-color: hsl(176, 50%, 47%);
+    cursor: pointer;
+}
+
+.numberLeftM {
+    display: none;
+}
+
+#icon2Bookmark {
+    display: none;
+}
+
+#errorMsg {
+    position: absolute;
+    bottom: -18px;
+    left: 23px;
+    color: red;
+    margin-left: 0px;
+}
+
+#buttonContinueD:disabled {
+    background-color:  hsl(0, 0%, 48%);
+    cursor: not-allowed;
+}
+
+.menuOpen {
+    display: none;
+}
+
+.shadowMenu {
+    display: none;
+}
+
+.hamburguerImage {
+    display: none;
+}
+
+.closeMenuImg {
+    display: none;
+}
+
+@media (max-width: 375px) {
+
+    body { overflow: hidden;}
+
+    .optionsMenu {
+        display: none;
+    }
+
+    .menuHeader {
+        padding-inline: 1rem;
+    }
+
+    .containerOpMenu {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        z-index: 110;
+    }
+
+    .menuOpen {
+        display: none;
+        position: absolute;
+        top: 85px;
+        width: 342px;
+        height: 250px;
+        background-color: white;
+        border-radius: 18px;
+        z-index: 110;
+    }
+
+    .menuOpen.active {
+        display: block;
+    }
+
+    .hamburguerImage {
+        display: block;
+    }
+
+    .hamburguerImage.active {
+        display: none;
+    }
+
+    .closeMenuImg.active {
+        display: block;
+    }
+
+    .opMenuM {
+        font-size: 21px;
+        font-weight: bold;
+        margin-left: 1.25rem;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .divisoriaM {
+        color: lightgray;
+        font-size: 5px;
+        height: 6px;
+    }
+
+    .shadowMenu {
+        display: none;
+        position: absolute;
+        top: 0;
+        width: 375px;
+        height: 2000px;
+        background-color: black;
+        opacity: 0.4;
+        z-index: 100;
+    }
+
+    .shadowMenu.active {
+        display: block;
+    }
+
+    .lineBlue {
+        left: 0;
+        min-width: 220px;
+    }
+
+    .lineGray {
+        top: -5px;
+        right: -50px;
+    }
+
+    .wrapperStandart2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-inline: 1.25rem;
+        min-height: 300px;
+        max-width: 330px;
+    }
+
+    .wrapperStandart1 {
+        z-index: 60;
+        padding-inline: 1.25rem;
+        min-height: 300px;
+        max-width: 330px;
+    }
+
+    .titlePart1 {
+        text-align: center;
+    }
+
+    .subtitlePart1 {
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .contentPart1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .partTop {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-inline-start: 0rem;
+        padding-inline-end: 0rem;
+    }
+
+    .mainInfo {
+        margin-bottom: 10px;
+    }
+
+    .partition1Stand2 {
+        width: 100px;
+        height: 1px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        
+    }
+
+    .partition2Stand2 {
+        width: 100px;
+        height: 1px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    #Bookmark {
+        display: none;
+    }
+
+    #icon2Bookmark {
+        display: block;
+    }
+
+    .lines {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapperStandart3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-inline: 1.25rem;
+        min-height: 300px;
+        max-width: 330px;
+    }
+
+    .part1Donate {
+        display: block;
+    }
+
+    .nameStand {
+        margin-bottom: 10px;
+    }
+
+    .part3Donate {
+         display: block;
+    }
+
+    .numberLeft {
+        text-align: start;
+        margin-right: 160px;
+        margin-bottom: 8px;
+    }
+
+    .buttonSR {
+        /* margin-right: 90px; */
+        /* padding: 20px 30px; */
+        width: 160px;
+        padding: 15px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapperModal1 {
+        width: 100%;
+        max-width: 330px;
+    }
+
+    .containerModal1 {
+        width: 100%;
+        max-width: 340px;
+        height: 1750px;
+        padding-inline: 1rem;
+    }
+
+    .titleCDM {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .numberLeft {
+        display: none;
+    }
+
+    .numberLeftM {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .numberP3 {
+        font-size: 25px;
+        margin-right: 8px;
+    }
+
+    .containerPledgeDonate {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .enterYourPledge {
+        margin-bottom: 15px;
+    }
+
+    .divisoriaModalM {
+        color: hsl(0, 0%, 48%);
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    .divisoriaModal {
+        display: none;
+    }
+
+    .oi {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #errorMsg {
+        position: absolute;
+        bottom: -18px;
+        left: 23px;
+        color: red;
+        margin-left: 0px;
+    }
+
+    .textCDM {
+        margin-left: 0px;
+        line-height: 25px;
+    }
+
+    .containerModalComplete {
+        width: 100%;
+        max-width: 340px;
+        text-align: center;
+        padding-inline: 0.75rem;
+    }
+
+    #buttonContinueD:disabled {
+        background-color:  hsl(0, 0%, 48%);
+        cursor: not-allowed;
+    }
+}
